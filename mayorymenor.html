@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+		<div id="resultado">
+		
+	</div>
+	
+	<script>
+	var numeros = [];
+	for (var i = 0; i < 2; i++) {
+		numeros[i]= parseInt(prompt('Ingrese numeros:'), 10);
+	}
+	var max = Math.max.apply(null, numeros);
+	document.getElementById('resultado').innerHTML+= 'El valor maximo es: ' + max;
+	</script>
+
+
+</body>
+</html>
