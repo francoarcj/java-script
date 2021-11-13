@@ -1,0 +1,47 @@
+html{
+	 font-family: 'Roboto', sans-serif;
+	 text-transform: uppercase;	
+	 font-weight: bolder;
+}
+.a{
+	color: white;
+}
+
+
+p{
+	vertical-align: inherit;
+	text-align: inherit;
+}
+
+.contenedor-flex2{
+	display: flex;
+	margin: 0 auto;
+	border:solid;
+	width: 360px;
+	padding: 10px;
+	background-color: whitesmoke;
+	flex-direction: row;
+	margin-top: 20%;
+}
+body{
+	background: red;
+}
+button{
+	font-weight: bold;
+	font-size: 20px;
+	width: 120px;
+	height: 120px;
+	margin-left: 6px;
+}
+button.uno {
+		background-color: blue;
+		border: none;
+}
+button.dos{
+		background-color: green;
+		border: none;
+}
+button.tres{
+		background-color: red;
+		border: none;
+}
